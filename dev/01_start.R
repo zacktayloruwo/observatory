@@ -25,19 +25,19 @@ golem::fill_desc(
   author_first_name = "Zack", # Your First Name
   author_last_name = "Taylor", # Your Last Name
   author_email = "observatory@uwo.ca", # Your Email
-  repo_url = "https://github.com/zacktayloruwo/nest_observatory.git" # The URL of the GitHub Repo (optional) 
+  repo_url = "https://github.com/zacktayloruwo/observatory.git" # The URL of the GitHub Repo
 )     
 
 ## Set {golem} options ----
-golem::set_golem_options()
+golem::set_golem_options() 
 
 ## Create Common Files ----
 ## See ?usethis for more information
 usethis::use_mit_license( "Golem User" )  # You can set another license here
-usethis::use_readme_rmd( open = FALSE )
+#usethis::use_readme_rmd( open = FALSE )
 usethis::use_code_of_conduct()
 usethis::use_lifecycle_badge( "Experimental" )
-usethis::use_news_md( open = FALSE )
+#usethis::use_news_md( open = FALSE )
 
 ## Use git ----
 usethis::use_git()
