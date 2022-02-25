@@ -1,0 +1,24 @@
+Package: observatory
+Title: NEST Observatory
+Version: 0.0.0.9000
+Authors@R: person('Zack', 'Taylor', email = 'observatory@uwo.ca', role = c('cre', 'aut'))
+Description: PKG_DESC.
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    dplyr,
+    ggplot2,
+    golem (>= 0.3.1),
+    purrr,
+    shiny (>= 1.7.1)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+URL: https://github.com/zacktayloruwo/nest_observatory.git
+BugReports: https://github.com/zacktayloruwo/nest_observatory.git/issues
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
